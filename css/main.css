@@ -1,0 +1,532 @@
+.icon__section {
+    border-right: 1px solid #453b3b;
+    min-height: 100vh;
+    font-size: 25px;
+    text-align: center;
+    padding: 0px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.73);
+}
+
+.text__after__icon {
+    font-size: 13px;
+}
+
+.home__icon__section,
+.youtuber__icon__section,
+.campaign__icon__section,
+.message__icon__section,
+.video__icon__section {
+    padding: 14px 25px 14px;
+    color: rgba(148, 147, 147, 0.91);
+}
+
+.home__icon__section:hover,
+.youtuber__icon__section:hover,
+.campaign__icon__section:hover,
+.message__icon__section:hover,
+.video__icon__section:hover {
+    color: white;
+    cursor: pointer;
+}
+
+.home__icon__section {
+    background: rgba(220, 69, 69, 0.98);
+    color: white;
+}
+
+.slide__section {
+    border-right: 1px solid #453b3b;
+    min-height: 100vh;
+    color: rgba(148, 147, 147, 0.91);
+    background-color: rgba(12, 12, 12, 0.82);
+    text-align: center;
+    /*display: none;*/
+}
+
+.filter__by__section {
+    padding-top: 30px;
+    padding-bottom: 18px;
+}
+
+.notification__section li {
+    list-style: none;
+    text-align: justify;
+    line-height: 2;
+    padding-left: 17px;
+}
+
+.notification__section {
+    margin-top: 31px;
+    padding-left: 0px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.16);
+    padding-bottom: 20px;
+}
+
+.notification__section span {
+    float: right;
+    padding-right: 17px;
+}
+
+.notification__section li:hover {
+    color: white;
+    cursor: pointer;
+}
+
+.notification__section li:first-child {
+    color: white;
+    border: 1px solid rgba(0, 0, 0, 0.03);
+    background: rgba(0, 0, 0, 0.33);
+    border-radius: 3px;
+}
+
+.notif__next {
+    margin-top: 21px;
+}
+
+.notif__next .notifc__wrap {
+    border: none !important;
+    background: none !important;
+}
+
+.text__wrap {
+    display: inline;
+    padding-left: 5px;
+}
+
+.hero__top__section {
+    margin: 20px 35px;
+    /*color: white;*/
+}
+
+.left__section {
+    border: 1px solid #03ac75;
+    background: #03ac75;
+    border-radius: 15px;
+    padding: 5px 12px;
+    color: white;
+}
+
+.icons__left {
+    font-size: 20px;
+    padding-left: 120px;
+    color: rgba(128, 128, 128, 0.62);
+}
+
+.padd__lft__30 {
+    padding-left: 30px;
+}
+
+.hero__section {
+    padding-bottom: 20px;
+    border-bottom: 1px solid rgba(204, 204, 204, 0.7);
+}
+
+.arw__right {
+    float: right;
+    transform: rotate(-30deg);
+    color: #ccc;
+    font-size: 16px;
+}
+
+.hero__next__section {
+    
+    background: rgba(204, 204, 204, 0.17);
+    border-bottom: 1px solid #ccc;
+    border-right: 1px solid #ccc;
+   
+}
+
+.cal__mid {
+    border-right: 1px solid #ccc;
+    padding-top: 8px;
+    padding-right: 2px;
+}
+
+.date__section {
+    font-size: 40px;
+    text-align: center;
+    padding-top: 10px;
+    font-weight: 600;
+    color: rgba(0, 0, 0, 0.6);
+}
+
+.date__text__wrap {
+    text-align: center;
+    font-weight: 600;
+    color: rgba(0, 0, 0, 0.6);
+}
+
+.time__count {
+    padding-top: 60px;
+    text-align: center;
+    padding-bottom: 25px;
+    font-weight: 600;
+    color: rgba(0, 0, 0, 0.42);
+}
+
+.main__hero__section
+{
+	border-left: 1px solid #453b3b;
+}
+.padd__lft__0
+{
+	padding-left: 0px;
+}
+.padd__rght__0
+{
+	padding-right: 0px;
+}
+.content__top
+{
+	border-bottom: 1px solid #ccc;
+}
+.search__and__sort
+{
+	padding: 0px;
+    border-right: 1px solid #ccc;
+    
+    
+    background: white;
+    
+}
+.main__left__section 
+{
+    padding-right: 5px;
+    background: rgba(204, 204, 204, 0.17);
+}
+.main__right__section {
+    padding: 0px;
+    border-left: 1px solid #ccc;
+ 
+}
+
+.bar__chart__section {}
+
+.icon-addon {
+    position: relative;
+    color: rgba(85, 85, 85, 0.61);
+    display: block;
+}
+
+.icon-addon.addon-md .glyphicon,
+.icon-addon .glyphicon,
+.icon-addon.addon-md .fa,
+.icon-addon .fa {
+    position: absolute;
+    z-index: 2;
+    left: 10px;
+    font-size: 14px;
+    width: 20px;
+    margin-left: -2.5px;
+    text-align: center;
+    padding: 10px 0;
+    top: 1px
+}
+
+.icon-addon.addon-md .form-control,
+.icon-addon .form-control {
+    padding-left: 30px;
+    float: left;
+    font-weight: normal;
+    border-radius: 50px;
+    font-style: italic;
+}
+
+.icon-addon .form-control:focus + .glyphicon,
+.icon-addon:hover .glyphicon,
+.icon-addon .form-control:focus + .fa,
+.icon-addon:hover .fa {
+    color: #2580db;
+}
+
+.search__icon {
+    width: 75%;
+    padding: 25px;
+}
+.bar__icon
+{
+	float: right;
+    padding-top: 4px;
+    padding-right: 20px;
+}
+.filter__types
+{
+	padding-left: 10px;
+	float: left;
+}
+.arw__btm
+{
+	color: rgba(0, 0, 0, 0.61);
+	font-size: 10px;
+    padding-left: 1px;
+}
+.text__wrp
+{
+	color: rgba(78, 75, 75, 0.63);
+}
+
+.sort__by__part
+{
+padding: 31px;
+}
+.colr__blck
+{
+	color: rgba(0, 0, 0, 0.65);
+    font-weight: 600;
+    letter-spacing: -1px;
+}
+.colr__gry
+{
+	color: #9E9E9E;
+}
+.img__circl
+{
+	width: 88%;
+    border-radius: 50%;
+    height: 77px;
+    border: 3px solid #03ac75;
+    padding: 5px;
+}
+.content__bottom
+{
+	padding: 30px 20px 13px;
+	border-bottom: 1px solid #ccc;
+}
+.colr__blu
+{
+	color: rgba(3, 169, 244, 0.9);
+    font-weight: 600;
+}
+.subscribers
+{
+	float: left;
+	border-right: 1px solid rgba(158, 158, 158, 0.32);
+    padding-right: 15px;
+    padding-left: 15px;
+}
+.subscribers:first-child
+{
+	padding-left: 0px;
+}
+.subscribers:last-child
+{
+	border: none;
+}
+.ratng
+{
+	padding-top: 10px;
+}
+.contact__part
+{
+	clear: both;
+}
+.comment,.retweet,.dot__icon
+{
+	float: left;
+    margin: 14px 12px 12px 0;
+    font-size: 11px;
+}
+.msg,.text__icon
+{
+	display: inline-block;
+}
+.text__icon
+{
+	margin-left: 5px;
+}
+.icon__class
+{
+	display: inline-block;
+}
+.icon
+{
+	font-size: 13px;
+}
+.icon
+{
+	color: #03ac75
+}
+.dot__icon
+{
+	font-size: 5px;
+	color: #9E9E9E;
+	padding-top: 6px;
+}
+.video__part
+{
+	width: 100%;
+	z-index: -1;
+	height: 90px;
+}
+.play__button
+{
+	position: absolute;
+	z-index: 1;
+	font-size: 25px;
+	color: white;
+	font-weight: 100;
+	left: 42%;
+    top: 30%;
+}
+.status__section
+{
+    border: 1px solid #03ac75;
+    background: #03ac75;
+    border-radius: 15px;
+    padding: 1px 5px;
+    color: white;
+    width: 35%;
+    height: 15px;
+    margin-top: 10px;
+    margin-left: 10px;
+    float: left;
+}
+.text__inside
+{
+	font-size: 9px;
+}
+.status__wrap
+{
+	padding-top: 8px;
+    position: absolute;
+    right: 25px;
+}
+.aprv__text
+{
+	color: rgba(0, 0, 0, 0.6);
+    font-weight: 600;
+    font-size: medium;
+}
+.aprv__section
+{
+	padding: 30px;
+}
+.video__prt
+{
+	width: 100%;
+    z-index: -1;
+    height: 205px;
+    padding-bottom: 42px;
+    border-bottom: 1px solid rgba(204, 204, 204, 0.23);
+}
+.play__buttn
+{
+	position: absolute;
+    z-index: 1;
+    font-size: 25px;
+    color: white;
+    font-weight: 100;
+    left: 45%;
+    top: 16%;
+}
+.text__msg
+{
+	padding-top: 30px;
+}
+.yelw__colr
+{
+	border: 3px solid rgba(255, 193, 7, 0.65);
+
+}
+.red__colr
+{
+	border: 3px solid rgba(244, 67, 54, 0.79);
+}
+.status__section__ylw
+{
+	border: 1px solid rgba(255, 193, 7, 0);
+	background: rgba(255, 193, 7, 0.65);
+}
+.status__section__red
+{
+	border: 1px solid rgba(244, 67, 54, 0);
+	background: rgba(244, 67, 54, 0.79);
+}
+.status__sec__padd
+{
+	padding: 1px 8px;
+}
+.botm__butn
+{
+	position: absolute;
+    top: 28%;
+    color: rgba(106, 88, 88, 0.35);
+    transform: rotate(90deg);
+    background: white;
+}
+.prfl__pic
+{
+	border: none;
+	width: 77%;
+    height: 58px;
+}
+.msg__box
+{
+	border: 1px solid rgba(204, 204, 204, 0.05);
+    background: rgba(204, 204, 204, 0.17);
+    color: rgba(104, 59, 145, 0.69);
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.chat__msg
+{
+	border-bottom: 1px solid rgba(204, 204, 204, 0.23);
+	padding-bottom: 40px;
+}
+.chat__notifi
+{
+	padding: 20px;
+    color: rgba(125, 105, 105, 0.89);
+    font-weight: 500;
+}
+.notifc__text
+{
+	border-bottom: 1px solid rgba(204, 204, 204, 0.23);
+	padding: 15px;
+}
+.attach__sent
+{
+	padding: 0px;
+}
+.attch__left
+{
+	float: left;
+	padding: 15px;
+	padding-right: 18px;
+	border-right: 1px solid rgba(204, 204, 204, 0.66);
+}
+.attach__mid
+{
+	float: left;
+	padding: 15px;
+	padding-left: 10px;
+}
+.attach__rght
+{
+	float: right;
+    padding: 15px;
+    right: 0;
+    position: absolute;
+    border: 1px solid rgba(3, 172, 117, 0.04);
+    background: rgba(3, 172, 117, 0.61);
+    color: white;
+}
+.send__btn
+{
+	transform: rotate(45deg);
+    font-size: 20px;
+}
+.attachment__file
+{
+	padding-right: 5px;
+    color: #07c0d7;
+    font-weight: 600;
+    font-size: 13px;
+}
+.attah__icon
+{
+	font-size: 20px;
+    transform: rotate(45deg);
+    color: #8b8080;
+}
