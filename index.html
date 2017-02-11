@@ -1,0 +1,588 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Product Dashboard</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+    <section class="dashboard__section">
+        <div class="container-fluid dashboard padd__lft__0 padd__rght__0">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="col-md-1 icon__section">
+                        <div class="home__icon__section">
+                            <div class="glyphicon glyphicon-home">
+                            </div>
+                            <div class="text__after__icon">Home</div>
+                        </div>
+                        <div class="youtuber__icon__section">
+                            <i class="fa fa-user-o" aria-hidden="true"></i>
+                            <div class="text__after__icon">YouTubers</div>
+                        </div>
+                        <div class="campaign__icon__section">
+                            <div class="glyphicon glyphicon-list-alt"></div>
+                            <div class="text__after__icon">Campaigns</div>
+                        </div>
+                        <div class="message__icon__section">
+                            <div class="glyphicon glyphicon-comment"></div>
+                            <div class="text__after__icon">Messages</div>
+                        </div>
+                        <div class="video__icon__section">
+                            <i class="fa fa-youtube-play" aria-hidden="true"></i>
+                            <div class="text__after__icon">Videos</div>
+                        </div>
+                    </div>
+                    <div class="col-md-2 slide__section">
+                        <div class="filter__by__section">
+                            <span class="filter__types">Filter by Type</span>
+                            <i class="fa fa-bars bar__icon padd__lft__0" aria-hidden="true"></i>
+                        </div>
+                        <div class="notif__part">
+                            <ul class="notification__section">
+                                <li class="notifc__wrap">Videos <span>16</span></li>
+                                <li>Action Required <span>3</span></li>
+                                <li>Fund YouTuber <span>5</span></li>
+                                <li>Hired &amp; Funded <span>1</span></li>
+                                <li>Edit Requested <span>4</span></li>
+                            </ul>
+                        </div>
+                        <div class="notif__part">
+                            <ul class="notification__section notif__next">
+                                <li class="notifc__wrap">Proposals <span>10</span></li>
+                                <li>New <span>31</span></li>
+                                <li>Declined <span>7</span></li>
+                                <li>Changes Requested <span>21</span></li>
+                                <li>Changes Declined <span>4</span></li>
+                            </ul>
+                        </div>
+                        <div class="notif__part">
+                            <ul class="notification__section notif__next">
+                                <li class="notifc__wrap">Approvals <span>17</span></li>
+                                <li>Waiting for Approval <span>3</span></li>
+                                <li>Approved/Completed <span>5</span></li>
+                                <li>Video in Dispute <span>11</span></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-md-9 main__hero__section padd__lft__0 padd__rght__0">
+                        <div class="col-md-12 hero__section">
+                            <div class="hero__top__section">
+                                <div class="left__endorsement">
+                                    <div class="col-md-3 left__section">
+                                        <div class="glyphicon glyphicon-bullhorn"></div>
+                                        <div class="text__wrap">Request Endorsement</div>
+                                    </div>
+                                    <div class="col-md-offset-5 col-md-4 icons__left">
+                                        <div class="glyphicon glyphicon-cog padd__lft__30"></div>
+                                        <div class="glyphicon glyphicon-question-sign padd__lft__30"></div>
+                                        <i class="fa fa-sign-out padd__lft__30" aria-hidden="true"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-12 hero__next__section padd__lft__0 padd__rght__0">
+                            <div class="col-md-8 hero__left__part padd__lft__0 padd__rght__0">
+                                <div class="col-md-4 cal__mid">
+                                    <div class="list__icon">
+                                        <div class="glyphicon glyphicon-list-alt"></div>
+                                        <div class="glyphicon glyphicon-triangle-right arw__right"></div>
+                                    </div>
+                                    <div class="date__section">
+                                        15
+                                    </div>
+                                    <div class="date__text__wrap">
+                                        PROPOSALS
+                                    </div>
+                                    <div class="time__count">
+                                        Last month:13
+                                    </div>
+                                </div>
+                                <div class="col-md-4 cal__mid">
+                                    <div class="list__icon">
+                                        <i class="fa fa-calendar" aria-hidden="true"></i>
+                                        <div class="glyphicon glyphicon-triangle-right arw__right"></div>
+                                    </div>
+                                    <div class="date__section">
+                                        14
+                                    </div>
+                                    <div class="date__text__wrap">
+                                        IN PRODUCTION
+                                    </div>
+                                    <div class="time__count">
+                                        Last month:19
+                                    </div>
+                                </div>
+                                <div class="col-md-4 cal__mid">
+                                    <div class="list__icon">
+                                        <i class="fa fa-play-circle-o" aria-hidden="true"></i>
+                                        <div class="glyphicon glyphicon-triangle-right arw__right"></div>
+                                    </div>
+                                    <div class="date__section">
+                                        28
+                                    </div>
+                                    <div class="date__text__wrap">
+                                        COMPLETED
+                                    </div>
+                                    <div class="time__count">
+                                        Last month:11
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4 bar__chart__section">
+                            </div>
+                        </div>
+                        <div class="col-md-12 main__content__part padd__lft__0 padd__rght__0">
+                            <div class="col-md-8 main__left__section padd__lft__0">
+                                <div class="col-md-12 search__and__sort">
+                                    <div class="col-md-12 content__top">
+                                        <div class="col-md-8">
+                                            <div class="form-group search__icon">
+                                                <div class="icon-addon addon-md">
+                                                    <input type="text" placeholder="Search videos" class="form-control" id="email">
+                                                    <label for="search" class="glyphicon glyphicon-search" rel="tooltip" title="email"></label>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-4 sort__by__part">
+                                            <span class="text__wrp">Sort by:</span> Newest
+                                            <div class="glyphicon glyphicon-triangle-bottom arw__btm">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-12 content__bottom">
+                                        <div class="col-md-8 img__wrp">
+                                            <div class="col-md-3 img__left padd__lft__0 padd__rght__0">
+                                                <img class="img__circl" src="images/img4.jpg" alt="">
+                                            </div>
+                                            <div class="col-md-9">
+                                                <span class="colr__blck">Styles &amp; Accessory</span> <span class="colr__gry">has been approved!</span>
+                                                <div class="desc">
+                                                    <span class="colr__gry">An endorsement for</span> <span class="colr__blu">Apple Watch</span>
+                                                </div>
+                                                <div class="ratng colr__gry">
+                                                    <div class="subscribers">
+                                                        <div class="text__subs">
+                                                            Subscribers
+                                                        </div>
+                                                        <div class="count__subs">
+                                                            765,866
+                                                        </div>
+                                                    </div>
+                                                    <div class="subscribers">
+                                                        <div class="text__subs">
+                                                            Female
+                                                        </div>
+                                                        <div class="count__subs">
+                                                            76.4%
+                                                        </div>
+                                                    </div>
+                                                    <div class="subscribers">
+                                                        <div class="text__subs">
+                                                            Male
+                                                        </div>
+                                                        <div class="count__subs">
+                                                            7.67%
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="contact__part">
+                                                    <div class="comment">
+                                                        <div class="glyphicon glyphicon-comment msg colr__blu">
+                                                        </div>
+                                                        <div class="text__icon">
+                                                            Workroom
+                                                        </div>
+                                                    </div>
+                                                    <i class="fa fa-circle dot__icon" aria-hidden="true"></i>
+                                                    <div class="retweet">
+                                                        <div class="icon__class">
+                                                            <i class="icon fa fa-retweet" aria-hidden="true"></i>
+                                                        </div>
+                                                        <div class="text__icon">
+                                                            Re-Hire
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-4">
+                                            <div class="video__section">
+                                                <video class="video__part" src="videos/smplvdeo.mp4"></video>
+                                                <div class="glyphicon glyphicon-play-circle play__button"></div>
+                                            </div>
+                                            <div class="status__rting">
+                                                <div class="status__section">
+                                                    <div class="text__inside">APPROVED</div>
+                                                </div>
+                                                <div class="status__wrap">
+                                                    <span class="colr__blck">$400</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-12 content__bottom">
+                                    <div class="col-md-8 img__wrp">
+                                        <div class="col-md-3 img__left padd__lft__0 padd__rght__0">
+                                            <img class="img__circl yelw__colr" src="images/img1.jpg" alt="">
+                                        </div>
+                                        <div class="col-md-9">
+                                            <span class="colr__blck">Styles &amp; Accessory</span> <span class="colr__gry">has been approved!</span>
+                                            <div class="desc">
+                                                <span class="colr__gry">An endorsement for</span> <span class="colr__blu">Apple Watch</span>
+                                            </div>
+                                            <div class="ratng colr__gry">
+                                                <div class="subscribers">
+                                                    <div class="text__subs">
+                                                        Subscribers
+                                                    </div>
+                                                    <div class="count__subs">
+                                                        765,866
+                                                    </div>
+                                                </div>
+                                                <div class="subscribers">
+                                                    <div class="text__subs">
+                                                        Female
+                                                    </div>
+                                                    <div class="count__subs">
+                                                        76.4%
+                                                    </div>
+                                                </div>
+                                                <div class="subscribers">
+                                                    <div class="text__subs">
+                                                        Male
+                                                    </div>
+                                                    <div class="count__subs">
+                                                        7.67%
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="contact__part">
+                                                <div class="comment">
+                                                    <div class="glyphicon glyphicon-comment msg colr__blu">
+                                                    </div>
+                                                    <div class="text__icon">
+                                                        Workroom
+                                                    </div>
+                                                </div>
+                                                <i class="fa fa-circle dot__icon" aria-hidden="true"></i>
+                                                <div class="retweet">
+                                                    <div class="icon__class">
+                                                        <i class="icon fa fa-retweet" aria-hidden="true"></i>
+                                                    </div>
+                                                    <div class="text__icon">
+                                                        Re-Hire
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <div class="video__section">
+                                            <video class="video__part" src="videos/smplvdeo.mp4"></video>
+                                            <div class="glyphicon glyphicon-play-circle play__button"></div>
+                                        </div>
+                                        <div class="status__rting">
+                                            <div class="status__section status__section__ylw">
+                                                <div class="text__inside">IN REVIEW</div>
+                                            </div>
+                                            <div class="status__wrap">
+                                                <span class="colr__blck">$400</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-12 search__and__sort">
+                                    <div class="col-md-12 content__bottom">
+                                        <div class="col-md-8 img__wrp">
+                                            <div class="col-md-3 img__left padd__lft__0 padd__rght__0">
+                                                <img class="img__circl red__colr" src="images/img3.jpg" alt="">
+                                            </div>
+                                            <div class="col-md-9">
+                                                <span class="colr__blck">Styles &amp; Accessory</span> <span class="colr__gry">has been approved!</span>
+                                                <div class="desc">
+                                                    <span class="colr__gry">An endorsement for</span> <span class="colr__blu">Apple Watch</span>
+                                                </div>
+                                                <div class="ratng colr__gry">
+                                                    <div class="subscribers">
+                                                        <div class="text__subs">
+                                                            Subscribers
+                                                        </div>
+                                                        <div class="count__subs">
+                                                            765,866
+                                                        </div>
+                                                    </div>
+                                                    <div class="subscribers">
+                                                        <div class="text__subs">
+                                                            Female
+                                                        </div>
+                                                        <div class="count__subs">
+                                                            76.4%
+                                                        </div>
+                                                    </div>
+                                                    <div class="subscribers">
+                                                        <div class="text__subs">
+                                                            Male
+                                                        </div>
+                                                        <div class="count__subs">
+                                                            7.67%
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="contact__part">
+                                                    <div class="comment">
+                                                        <div class="glyphicon glyphicon-comment msg colr__blu">
+                                                        </div>
+                                                        <div class="text__icon">
+                                                            Workroom
+                                                        </div>
+                                                    </div>
+                                                    <i class="fa fa-circle dot__icon" aria-hidden="true"></i>
+                                                    <div class="retweet">
+                                                        <div class="icon__class">
+                                                            <i class="icon fa fa-retweet" aria-hidden="true"></i>
+                                                        </div>
+                                                        <div class="text__icon">
+                                                            Re-Hire
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-4">
+                                            <div class="video__section">
+                                                <video class="video__part" src="videos/smplvdeo.mp4"></video>
+                                                <div class="glyphicon glyphicon-play-circle play__button"></div>
+                                            </div>
+                                            <div class="status__rting">
+                                                <div class="status__section status__section__red status__sec__padd">
+                                                    <div class="text__inside">DECLINED</div>
+                                                </div>
+                                                <div class="status__wrap">
+                                                    <span class="colr__blck">$400</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-12 content__bottom">
+                                        <div class="col-md-8 img__wrp">
+                                            <div class="col-md-3 img__left padd__lft__0 padd__rght__0">
+                                                <img class="img__circl yelw__colr" src="images/img2.jpg" alt="">
+                                            </div>
+                                            <div class="col-md-9">
+                                                <span class="colr__blck">Styles &amp; Accessory</span> <span class="colr__gry">has been approved!</span>
+                                                <div class="desc">
+                                                    <span class="colr__gry">An endorsement for</span> <span class="colr__blu">Apple Watch</span>
+                                                </div>
+                                                <div class="ratng colr__gry">
+                                                    <div class="subscribers">
+                                                        <div class="text__subs">
+                                                            Subscribers
+                                                        </div>
+                                                        <div class="count__subs">
+                                                            765,866
+                                                        </div>
+                                                    </div>
+                                                    <div class="subscribers">
+                                                        <div class="text__subs">
+                                                            Female
+                                                        </div>
+                                                        <div class="count__subs">
+                                                            76.4%
+                                                        </div>
+                                                    </div>
+                                                    <div class="subscribers">
+                                                        <div class="text__subs">
+                                                            Male
+                                                        </div>
+                                                        <div class="count__subs">
+                                                            7.67%
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="contact__part">
+                                                    <div class="comment">
+                                                        <div class="glyphicon glyphicon-comment msg colr__blu">
+                                                        </div>
+                                                        <div class="text__icon">
+                                                            Workroom
+                                                        </div>
+                                                    </div>
+                                                    <i class="fa fa-circle dot__icon" aria-hidden="true"></i>
+                                                    <div class="retweet">
+                                                        <div class="icon__class">
+                                                            <i class="icon fa fa-retweet" aria-hidden="true"></i>
+                                                        </div>
+                                                        <div class="text__icon">
+                                                            Re-Hire
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-4">
+                                            <div class="video__section">
+                                                <video class="video__part" src="videos/smplvdeo.mp4"></video>
+                                                <div class="glyphicon glyphicon-play-circle play__button"></div>
+                                            </div>
+                                            <div class="status__rting">
+                                                <div class="status__section status__section__ylw">
+                                                    <div class="text__inside">IN REVIEW</div>
+                                                </div>
+                                                <div class="status__wrap">
+                                                    <span class="colr__blck">$400</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-12 content__bottom">
+                                        <div class="col-md-8 img__wrp">
+                                            <div class="col-md-3 img__left padd__lft__0 padd__rght__0">
+                                                <img class="img__circl red__colr" src="images/img4.jpg" alt="">
+                                            </div>
+                                            <div class="col-md-9">
+                                                <span class="colr__blck">Styles &amp; Accessory</span> <span class="colr__gry">has been approved!</span>
+                                                <div class="desc">
+                                                    <span class="colr__gry">An endorsement for</span> <span class="colr__blu">Apple Watch</span>
+                                                </div>
+                                                <div class="ratng colr__gry">
+                                                    <div class="subscribers">
+                                                        <div class="text__subs">
+                                                            Subscribers
+                                                        </div>
+                                                        <div class="count__subs">
+                                                            765,866
+                                                        </div>
+                                                    </div>
+                                                    <div class="subscribers">
+                                                        <div class="text__subs">
+                                                            Female
+                                                        </div>
+                                                        <div class="count__subs">
+                                                            76.4%
+                                                        </div>
+                                                    </div>
+                                                    <div class="subscribers">
+                                                        <div class="text__subs">
+                                                            Male
+                                                        </div>
+                                                        <div class="count__subs">
+                                                            7.67%
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="contact__part">
+                                                    <div class="comment">
+                                                        <div class="glyphicon glyphicon-comment msg colr__blu">
+                                                        </div>
+                                                        <div class="text__icon">
+                                                            Workroom
+                                                        </div>
+                                                    </div>
+                                                    <i class="fa fa-circle dot__icon" aria-hidden="true"></i>
+                                                    <div class="retweet">
+                                                        <div class="icon__class">
+                                                            <i class="icon fa fa-retweet" aria-hidden="true"></i>
+                                                        </div>
+                                                        <div class="text__icon">
+                                                            Re-Hire
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-4">
+                                            <div class="video__section">
+                                                <video class="video__part" src="videos/smplvdeo.mp4"></video>
+                                                <div class="glyphicon glyphicon-play-circle play__button"></div>
+                                            </div>
+                                            <div class="status__rting">
+                                                <div class="status__section status__section__red status__sec__padd">
+                                                    <div class="text__inside">DECLINED</div>
+                                                </div>
+                                                <div class="status__wrap">
+                                                    <span class="colr__blck">$400</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+
+                            </div>
+                            <div class="col-md-4 main__right__section">
+                                <div class="aprv__section">
+                                    <div class="aprv__text">
+                                        The Daily Pastry
+                                    </div>
+                                </div>
+                                <div class="video__sectn">
+                                    <video class="video__prt" src="videos/smplvdeo.mp4"></video>
+                                    <div class="glyphicon glyphicon-play-circle play__buttn"></div>
+                                </div>
+                                <div class="glyphicon glyphicon-play-circle play__buttn botm__butn"></div>
+                                <div class="col-md-12 chat__msg">
+                                    <div class="col-md-12 img__wrp text__msg">
+                                        <div class="col-md-3 img__left padd__lft__0 padd__rght__0">
+                                            <img class="img__circl prfl__pic" src="images/img4.jpg" alt="">
+                                        </div>
+                                        <div class="col-md-9 msg__box">
+                                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.
+                                        </div>
+                                    </div>
+                                    <div class="col-md-12 img__wrp text__msg">
+                                        <div class="col-md-3 img__left padd__lft__0 padd__rght__0">
+                                            <img class="img__circl prfl__pic" src="images/img1.jpg" alt="">
+                                        </div>
+                                        <div class="col-md-9 msg__box">
+                                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.
+                                        </div>
+                                    </div>
+                                    <div class="col-md-12 img__wrp text__msg">
+                                        <div class="col-md-3 img__left padd__lft__0 padd__rght__0">
+                                            <img class="img__circl prfl__pic" src="images/img3.jpg" alt="">
+                                        </div>
+                                        <div class="col-md-9 msg__box">
+                                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-12 notifc__text">
+                                <span class="chat__notifi">
+                                    This new version is terrific! Let's just change one more thing..
+                                    </span>
+                                </div>
+                                <div class="col-md-12 attach__sent">
+                                	<div class="attch__left">
+                                		<i class="fa fa-paperclip attah__icon" aria-hidden="true"></i>
+				
+                                	</div>
+                                	<div class="attach__mid">
+                                		<span class="attachment__file">script copy v2.1.pdf</span>
+                                		<i class="fa fa-times" aria-hidden="true"></i>
+                                	</div>
+                                	<div class="attach__rght">
+                                		<i class="fa fa-paper-plane send__btn" aria-hidden="true"></i>
+                                	</div>
+                                </div>
+                                </div>
+                                
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
