@@ -6,6 +6,7 @@
     padding: 0px;
     color: white;
     background-color: rgba(0, 0, 0, 0.73);
+    position: fixed;
 }
 
 .text__after__icon {
@@ -41,6 +42,8 @@
     color: rgba(148, 147, 147, 0.91);
     background-color: rgba(12, 12, 12, 0.82);
     text-align: center;
+    position: fixed;
+    left: 112px;
     /*display: none;*/
 }
 
@@ -168,6 +171,7 @@
 .main__hero__section
 {
 	border-left: 1px solid #453b3b;
+    float: right;
 }
 .padd__lft__0
 {
